@@ -32,7 +32,7 @@ The OnlineExam Platform is a web-based application designed to facilitate the cr
 ![Screenshot 2](https://i.pinimg.com/736x/d0/16/a6/d016a67d1df59ef577912deaf6ad99e2.jpg)
 
 ## Author
-Digambar Kumbhar
+Gaurishankar V
 #### 🚀 About Me
 I'm a full stack developer...
 
