@@ -85,17 +85,6 @@
             };
             xhr.send(JSON.stringify(data));
         });
-        // window.onload = setTimeout(() => {
-        //     const xhr = new XMLHttpRequest();
-        //     xhr.open("POST", "getTestId.php", true);
-        //     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-        //     xhr.onload = () => {
-        //         console.log(xhr.responseText)
-        //         // const response = JSON.parse(xhr.responseText);
-        //         // console.log(response);
-        //         console.log('getTestId');
-        //     };
-        // }, 1000);
         fetch('getTestId.php')
         .then(x => x.text())
         .then(y => {
@@ -106,3 +95,4 @@
     </script>
 </body>
 </html>
+
