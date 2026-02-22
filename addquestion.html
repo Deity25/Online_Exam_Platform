@@ -89,29 +89,6 @@
             };
             console.log(questionData.questionText)
             var data = JSON.stringify(questionData);
-            // Perform an AJAX request to send the data to the server
-            // fetch("addquestion.php", {
-            //     method: "POST",
-            //     body: data,
-            //     headers: {
-            //         "Content-Type": "application/json",
-            //     },
-            // })
-            // .then((response) => response.json())
-            // .then((data) => {
-            //     if (data.success) {
-            //         alert("Question added successfully.");
-            //         // Optionally, you can reset the form
-            //         document.getElementById("questionForm").reset();
-            //     } else {
-            //         alert("Error: " + data.message);
-            //     }
-            // })
-            // // .catch((error) => {
-            // //     console.error("Error: " + error);
-            // //     document.write(error);
-            // // });
-            
             fetch("addquestion.php",
             {
                 method: "POST",
@@ -131,3 +108,4 @@
     </script>
 </body>
 </html>
+
