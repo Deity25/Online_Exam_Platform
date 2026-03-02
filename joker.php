@@ -15,15 +15,15 @@ if ($conn=connect_error){
   }
 header("Content-Type: application/json; charset=UTF-8");
 $data=json_decode($_POST["data"], true);
-// print_r($data);
+print_r($data);
 
-// print($data['fname']);
-// echo $_POST['fname'];
-// echo $_POST['lname'];
-// echo $_POST['username'];
-// echo $_POST['password'];
-// echo $_POST['phone'];
-// echo $_POST['email'];
+print($data['fname']);
+echo $_POST['fname'];
+echo $_POST['lname'];
+echo $_POST['username'];
+echo $_POST['password'];
+echo $_POST['phone'];
+echo $_POST['email'];
 session_start();
 
 // echo $_POST['phone'];
@@ -51,3 +51,4 @@ if(isset($data['fname']) && isset($data['lname']) && isset($data['username']) &&
 // mysqli_free_result($result);
 $conn -> close();
 ?>
+
