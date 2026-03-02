@@ -51,4 +51,3 @@ if(isset($data['fname']) && isset($data['lname']) && isset($data['username']) &&
 // mysqli_free_result($result);
 $conn -> close();
 ?>
-
