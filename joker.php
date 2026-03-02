@@ -10,9 +10,9 @@ $conn = new mysqli($servername, $username, $password, 'joker');
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-// echo "Connected successfully";
-
-
+if ($conn=connect_error){
+  die('Connection Succeed: " . $conn=connect_error);
+  }
 header("Content-Type: application/json; charset=UTF-8");
 $data=json_decode($_POST["data"], true);
 // print_r($data);
@@ -51,3 +51,4 @@ if(isset($data['fname']) && isset($data['lname']) && isset($data['username']) &&
 // mysqli_free_result($result);
 $conn -> close();
 ?>
+
