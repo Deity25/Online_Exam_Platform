@@ -3,8 +3,6 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "exam_db";
-
-
 session_start();
 
 // Create connection
@@ -44,4 +42,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // Close the database connection
 $conn->close();
 ?> 
+
 
