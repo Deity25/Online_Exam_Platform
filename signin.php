@@ -4,8 +4,6 @@ $username = "root";
 $password = "";
 $dbname = "exam_db";
 session_start();
-
-// Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
@@ -42,5 +40,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // Close the database connection
 $conn->close();
 ?> 
+
 
 
