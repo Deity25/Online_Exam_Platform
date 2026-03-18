@@ -18,8 +18,6 @@ Mars (Correct)
 Jupiter
 Saturn
 
-
-
 Question
 Question Text: Who wrote the play "Romeo and Juliet"?
 
