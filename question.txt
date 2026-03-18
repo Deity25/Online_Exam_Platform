@@ -28,9 +28,7 @@ Jane Austen
 Charles Dickens
 George Orwell
 
-
-
-Question
+Question 4
 Question Text: What is the chemical symbol for gold?
 
 Options:
