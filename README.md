@@ -33,5 +33,4 @@ The OnlineExam Platform is a web-based application designed to facilitate the cr
 
 ## Author
 Gaurishankar V
-#### 🚀 About Me
-I'm a full stack developer...
+#### 🚀 About Mes
