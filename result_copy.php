@@ -8,7 +8,6 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    // print_r($_POST);
     if (isset($_SESSION["student_id"])) {
         if(isset($_POST)) {
             $student_id = $_SESSION['student_id'];
