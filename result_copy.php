@@ -35,8 +35,6 @@ if (count($studentAnswers) !== count($correctOptions)) {
     echo "Correct Answers: $score<br>";
     echo "Percentage Score: $percentageScore%";
 }
-
-
             $sql = 'INSERT INTO test_results(student_id, test_id, score) VALUES('.$student_id.','.$_SESSION['examId'].','.$score.')';
             $result = $conn->query($sql);
 
