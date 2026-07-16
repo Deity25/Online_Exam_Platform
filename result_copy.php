@@ -13,7 +13,6 @@
             $student_id = $_SESSION['student_id'];
             $test_id = $_SESSION['examId'];
 
-// Sample student answers and correct options
 $studentAnswers = [1, 2, 3, 4, 5]; // Replace with actual student answers (selected_option_id)
 $correctOptions = [2, 2, 3, 4, 5]; // Replace with actual correct options (option_id)
 
