@@ -49,7 +49,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             "message" => "Error while adding the question.",
         ];
     }
-
     echo json_encode($response);
 } else {
     http_response_code(400); // Bad request
